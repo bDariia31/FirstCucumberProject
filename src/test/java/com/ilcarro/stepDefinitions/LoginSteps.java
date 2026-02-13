@@ -18,6 +18,7 @@ public class LoginSteps {
     {
 
         new HomePage(driver).clickOnLoginLink();
+
     }
     @And("User enters corect data")
     public void enters_corect_data()
@@ -44,6 +45,7 @@ public class LoginSteps {
     @And("User enters corect email and wrong password")
     public void enter_wrong_password(DataTable table)
     {
+        login=new LoginPage(driver);
         login.enterWrongPassword(table);
 
     }

@@ -45,7 +45,6 @@ public class LoginPage extends BasePage {
 
     public LoginPage enterWrongPassword(DataTable table) {
 
-
         List<Map<String, String>> dataTable = table.asMaps();
 
         String email = dataTable.get(0).get("email");
