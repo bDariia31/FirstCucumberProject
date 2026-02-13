@@ -1,6 +1,7 @@
 package com.ilcarro.stepDefinitions;
 
 import com.ilcarro.pages.HomePage;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -27,4 +28,14 @@ public class HomePageSteps {
 
         new HomePage(driver).isHomePageTitleDisplayed();
     }
+
+    @And("User closes browser")
+    public void quit_browser()
+    {
+        new HomePage(driver).quitBrowser();
+    }
+
+
+
+
 }

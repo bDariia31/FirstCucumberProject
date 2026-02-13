@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-13T10:36:43.751Z" hostname="MacBook-Air-Dasa.local" time="3.883">
+  <properties/>
+  <testcase name="Successful login" classname="Login" time="3.883"/>
+  <system-out><![CDATA[
+@loginPositive
+?[1mScenario:?[22m Successful login                          ?[90m# src/test/resources/features/login.feature:4?[39m
+  ?[32m✔?[39m ?[32m?[1mGiven ?[22mUser launches Chrome browser?[39m              ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.lauch_Chrome_browser()?[39m
+  ?[32m✔?[39m ?[32m?[1mWhen ?[22mUser opens ilcarro HomePage?[39m                ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.open_Ilcarro_HomePage()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Login Link?[39m                   ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser enters corect data?[39m                     ?[90m# com.ilcarro.stepDefinitions.LoginSteps.enters_corect_data()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Yalla button?[39m                 ?[90m# com.ilcarro.stepDefinitions.LoginSteps.clicks_on_Yalla_button()?[39m
+  ?[32m✔?[39m ?[32m?[1mThen ?[22mUser verifies Success message is displayed?[39m ?[90m# com.ilcarro.stepDefinitions.LoginSteps.verify_Success_Login()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser closes browser?[39m                         ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.quit_browser()?[39m
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>

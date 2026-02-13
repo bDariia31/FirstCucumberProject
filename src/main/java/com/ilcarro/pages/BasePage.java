@@ -65,4 +65,7 @@ public abstract class BasePage
     }
 
 
+    public void quitBrowser() {
+        driver.quit();
+    }
 }
